@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Orlune Digital Marketing Agency — get a free consultation via form, email, or WhatsApp.">
+  <title>Contact | Orlune</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand-wrap" href="index.html">
+      <img class="brand-logo" src="images/orlune-logo.svg" alt="Orlune logo">
+      <h1>Orlune</h1>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="page-header card reveal">
+      <p class="section-tag">Get in Touch</p>
+      <h2>Let's talk about your next growth chapter</h2>
+      <p>
+        Tell us about your business and goals. The Orlune team will respond within
+        24 hours with next steps and a free consultation offer.
+      </p>
+    </section>
+
+    <section class="contact-layout">
+      <article class="card contact-info reveal">
+        <h3>Contact Details</h3>
+        <p><strong>Email</strong><br>
+          <a data-orlune-email data-orlune-email-text href="mailto:digitalorlune@gmail.com">digitalorlune@gmail.com</a>
+        </p>
+        <p><strong>WhatsApp</strong><br>
+          <a data-orlune-whatsapp data-orlune-whatsapp-text href="https://wa.me/918248738100">+91 8248738100</a>
+        </p>
+        <p><strong>Response Time</strong><br>Within 24 hours on business days</p>
+        <div class="cta-row">
+          <a class="btn btn-whatsapp" data-orlune-whatsapp href="https://wa.me/918248738100" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          <a class="btn btn-secondary" data-orlune-email href="mailto:digitalorlune@gmail.com">Send Email</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <h3>Send Us a Message</h3>
+        <form id="contactForm" class="form-grid">
+          <div>
+            <label for="contactName">Full Name</label>
+            <input id="contactName" type="text" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="contactEmail">Email Address</label>
+            <input id="contactEmail" type="email" placeholder="you@company.com" required>
+          </div>
+          <div>
+            <label for="contactPhone">Phone (optional)</label>
+            <input id="contactPhone" type="tel" placeholder="+91 XXXXX XXXXX">
+          </div>
+          <div>
+            <label for="contactService">Service Interested In</label>
+            <select id="contactService" required>
+              <option value="">Select a service</option>
+              <option value="seo">SEO</option>
+              <option value="ppc">Paid Advertising (PPC)</option>
+              <option value="social">Social Media Marketing</option>
+              <option value="branding">Branding &amp; Creative</option>
+              <option value="content">Content Marketing</option>
+              <option value="web">Website &amp; Conversion</option>
+              <option value="full">Full Growth Package</option>
+            </select>
+          </div>
+          <div>
+            <label for="contactMessageInput">Message</label>
+            <textarea id="contactMessageInput" rows="5" placeholder="Tell us about your business and goals..." required></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn" type="submit">Send Message</button>
+          </div>
+        </form>
+        <p id="contactMessage" class="message hidden"></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-contact">
+      <p>&copy; 2026 Orlune Digital Marketing Agency. All rights reserved.</p>
+      <p><strong>Email:</strong> <a data-orlune-email data-orlune-email-text href="mailto:digitalorlune@gmail.com">digitalorlune@gmail.com</a></p>
+      <p><strong>WhatsApp:</strong> <a data-orlune-whatsapp data-orlune-whatsapp-text href="https://wa.me/918248738100">+91 8248738100</a></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
